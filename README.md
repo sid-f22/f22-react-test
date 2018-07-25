@@ -26,6 +26,7 @@ Follow these instructions to submit your challenge.
 
 ## Challenge
 The design mocks for this challenge can be found ([here](https://zpl.io/aRYwpAN)) 
+The 4 screens under the "React Web" section are to be used.
 
 ## Requirements
 Your web app should meet the following requirements:
