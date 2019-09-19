@@ -4,6 +4,7 @@ import image1 from "../media/image.png";
 import image2 from "../media/image1.png";
 import image3 from "../media/image2.png";
 import image4 from "../media/image3.png";
+import Desc from "../Desc";
 
 class NormalView extends Component {
   render() {
@@ -28,20 +29,6 @@ class NormalView extends Component {
       </div>
     );
   }
-}
-
-function Desc() {
-  return (
-    <div>
-      <h5>$ 45.84</h5>
-      <h4>Soft-Feel Cardigan</h4>
-      <p>
-        Bunch of components will help
-        <br /> you to prototype, design &<br /> build much faster.
-      </p>
-      <h6>85 Reviews</h6>
-    </div>
-  );
 }
 
 export default NormalView;
