@@ -15,9 +15,15 @@ class Header extends Component {
           <a href="#" className="link" id="works">
             How it works
           </a>
-          <a href="#" className="link" id="contact">
-            Get in touch
-          </a>
+          {this.props.path === "/" ? (
+            <a href="#" className="link" id="contact">
+              Get in touch
+            </a>
+          ) : (
+            <Link to="/home" className="link">
+              Logout
+            </Link>
+          )}
         </div>
       </div>
     );

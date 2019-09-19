@@ -8,7 +8,7 @@ class ProductPage extends Component {
   render() {
     return (
       <div className="Product_Page">
-        <Header />
+        <Header path={this.props.match.path} />
         <NormalView />
         <PlacardView />
       </div>

@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header path={this.props.match.path} />
         <HomePage />
         <Features />
       </div>
