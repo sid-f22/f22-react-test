@@ -3,6 +3,7 @@ import "./ProductPage.css";
 import Header from "../Header/Header";
 import NormalView from "../NormalView/NormalView";
 import PlacardView from "../PlacardView/PlacardView";
+import Contact from "../Contact/Contact";
 
 class ProductPage extends Component {
   render() {
@@ -11,6 +12,7 @@ class ProductPage extends Component {
         <Header path={this.props.match.path} />
         <NormalView />
         <PlacardView />
+        <Contact />
       </div>
     );
   }

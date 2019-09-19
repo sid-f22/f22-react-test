@@ -1,0 +1,37 @@
+.Contact {
+  height: 380pt;
+  font-family: "Roboto-Regular";
+  color: rgb(89, 95, 111);
+  letter-spacing: 0pt;
+}
+
+#map {
+  height: 216pt;
+  width: 360pt;
+  position: relative;
+  top: 68pt;
+  left: 830pt;
+  box-shadow: 10pt 20pt 60pt rgba(0, 0, 0, 0.3);
+}
+
+#social {
+  height: 20pt;
+  width: 140pt;
+  position: relative;
+  top: 48pt;
+  left: 244pt;
+}
+
+#logo {
+  /* height: 29pt; */
+  width: 86pt;
+  position: relative;
+  top: -168pt;
+  left: 244pt;
+}
+
+#text {
+  position: relative;
+  top: -123pt;
+  left: 97pt;
+}

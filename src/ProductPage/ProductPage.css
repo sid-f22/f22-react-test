@@ -1,0 +1,28 @@
+h4 {
+  font-size: 18pt;
+  letter-spacing: -0.5pt;
+  color: rgb(26, 71, 176);
+  width: 263pt;
+  margin: 0pt;
+  padding-bottom: 10pt;
+}
+
+p {
+  font-size: 14pt;
+  line-height: 18pt;
+  width: 195pt;
+  margin: 0pt;
+  padding-bottom: 21pt;
+}
+
+h6 {
+  font-size: 12pt;
+  width: 61pt;
+  margin: 0pt;
+}
+
+h5 {
+  font-family: "Roboto-Bold";
+  margin: 0pt;
+  padding-bottom: 10pt;
+}
