@@ -1,0 +1,49 @@
+.Sign_Up {
+  height: 462pt;
+  width: 864pt;
+  background-color: rgb(18, 48, 117);
+}
+
+.sign_form {
+  height: 318pt;
+  width: 274.8pt;
+  position: relative;
+  text-align: center;
+  top: 72pt;
+  background-color: rgb(255, 255, 255);
+  border: 0.6pt solid rgb(255, 255, 255);
+  border-radius: 5pt;
+  box-shadow: 24pt 24pt 48pt rgba(2, 8, 22, 0.3);
+}
+
+#name {
+  margin-top: 30pt;
+}
+
+input {
+  display: block;
+  height: 36pt;
+  width: 157.2pt;
+  margin: auto;
+  margin-bottom: 18pt;
+  border: 0.6pt Inside rgb(221, 223, 231);
+  border-radius: 3pt;
+}
+
+::-webkit-input-placeholder {
+  padding-left: 18pt;
+  font-size: 8.4pt;
+  font-family: "Roboto-Regular";
+}
+
+.sign {
+  height: 36pt;
+  width: 157.8pt;
+  background-color: rgb(18, 48, 117);
+  color: white;
+  border: none;
+  border-radius: 5pt;
+  margin-bottom: 36pt;
+  font-family: "Roboto-Medium";
+  font-size: 9.6pt;
+}

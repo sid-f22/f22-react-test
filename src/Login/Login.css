@@ -1,0 +1,33 @@
+.Login {
+  height: 462pt;
+  width: 864pt;
+  background-color: rgb(18, 48, 117);
+}
+
+.login_form {
+  height: 199pt;
+  width: 274.8pt;
+  position: relative;
+  text-align: center;
+  top: 0pt;
+  left: 439.8pt;
+  background-color: rgb(255, 255, 255);
+  border: 0.6pt solid rgb(255, 255, 255);
+  border-radius: 5pt;
+  box-shadow: 24pt 24pt 48pt rgba(2, 8, 22, 0.3);
+}
+
+#email {
+  margin-top: 30pt;
+}
+
+h1 {
+  font-size: 28.8pt;
+  font-family: "Roboto-Bold";
+  line-height: 37.2pt;
+  letter-spacing: -0.6pt;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 159.2pt;
+  left: 149pt;
+}
