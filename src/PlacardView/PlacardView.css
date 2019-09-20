@@ -12,17 +12,36 @@
   width: 263pt;
 }
 
-/* .card {
-} */
-
-#imagec {
-  top: 393pt;
-  left: -378pt;
+.card {
+  position: relative;
+  display: -webkit-inline-box;
+  box-shadow: 10pt 10pt 40pt rgba(0, 0, 0, 0.1);
 }
 
-#imaged {
-  top: 393pt;
-  left: -56pt;
+.descText {
+  position: relative;
+  top: 56pt;
+  left: 29pt;
+}
+#text_imagea {
+  top: 100pt;
+  left: 148pt;
+  box-shadow: 20pt 20pt 60pt rgba(0, 0, 0, 0.3);
+}
+
+#text_imageb {
+  top: -163pt;
+  left: 733pt;
+}
+
+#text_imagec {
+  top: -133pt;
+  left: 148pt;
+}
+
+#text_imaged {
+  top: -396pt;
+  left: 733pt;
 }
 
 .Placard_View h5 {

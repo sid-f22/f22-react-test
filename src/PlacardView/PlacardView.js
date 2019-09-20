@@ -10,21 +10,29 @@ class PlacardView extends Component {
   render() {
     return (
       <div className="Placard_View">
-        <img src={image1} id="image1" alt="image1" />
-        <img src={image2} id="image2" alt="image2" />
-        <img src={image3} id="imagec" alt="image3" />
-        <img src={image4} id="imaged" alt="image4" />
-        <div id="text_image1" className="card">
-          <Desc />
+        <div id="text_imagea" className="card">
+          <img src={image1} alt="image1" />
+          <div className="descText">
+            <Desc />
+          </div>
         </div>
-        <div id="text_image2" className="card">
-          <Desc />
+        <div id="text_imageb" className="card">
+          <img src={image2} alt="image2" />
+          <div className="descText">
+            <Desc />
+          </div>
         </div>
-        <div id="text_image1" className="card">
-          <Desc />
+        <div id="text_imagec" className="card">
+          <img src={image3} alt="image3" />
+          <div className="descText">
+            <Desc />
+          </div>
         </div>
-        <div id="text_image2" className="card">
-          <Desc />
+        <div id="text_imaged" className="card">
+          <img src={image4} alt="image4" />
+          <div className="descText">
+            <Desc />
+          </div>
         </div>
       </div>
     );
