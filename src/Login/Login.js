@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import "./Login.css";
 
 class Login extends Component {
+  exitModal = event => {
+    event.preventDefault();
+    this.props.closeModal();
+  };
+
   render() {
     return (
       <div className="Login">
@@ -10,7 +15,7 @@ class Login extends Component {
           <br /> to get
           <br /> Offers
         </h1>
-        <form className="login_form">
+        <form className="login_form" onSubmit={this.exitModal}>
           <input type="email" id="email" placeholder="Email Address" />
           <input type="password" placeholder="Password" />
           <button type="submit" className="sign">
