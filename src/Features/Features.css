@@ -16,11 +16,11 @@
   font-family: "Roboto-Light";
 }
 
-#numbers {
+.Features #numbers {
   margin-left: 150pt;
 }
 
-#numbers p {
+.Features #numbers p {
   font-size: 24pt;
   position: relative;
   float: left;
@@ -32,12 +32,10 @@
   background-color: rgb(250, 43, 86);
 }
 
-#text {
-  margin-left: 150pt;
-}
-
-#text p {
+.Features #text p {
   position: relative;
+  left: -90pt;
+  top: 120pt;
   float: left;
   height: 42pt;
   width: 263pt;
@@ -45,4 +43,9 @@
   font-size: 18pt;
   padding: 0pt;
   margin-left: 0pt;
+}
+
+.Features #text {
+  margin-left: 250pt;
+  position: inherit;
 }

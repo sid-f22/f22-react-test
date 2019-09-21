@@ -20,7 +20,7 @@ class Header extends Component {
               Get in touch
             </a>
           ) : (
-            <Link to="/home" className="link">
+            <Link to="/" className="link">
               Logout
             </Link>
           )}
