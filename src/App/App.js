@@ -6,18 +6,27 @@ import Features from "../Features/Features";
 
 class App extends Component {
   state = {
-    show: false
+    show: false,
+    activeModal: null
   };
 
-  showModal = () => {
-    this.setState({ ...this.state, show: !this.state.show });
+  showModal = activeModal => {
+    this.setState({
+      ...this.state,
+      show: !this.state.show,
+      activeModal: activeModal
+    });
   };
 
   render() {
     return (
       <div className="App">
         <Header path={this.props.match.path} />
-        <HomePage showModal={this.showModal} show={this.state.show} />
+        <HomePage
+          showModal={this.showModal}
+          activeModal={this.state.activeModal}
+          show={this.state.show}
+        />
         <Features />
       </div>
     );

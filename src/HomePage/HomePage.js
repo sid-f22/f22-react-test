@@ -9,29 +9,29 @@ import more from "../media/icon.png";
 
 class HomePage extends Component {
   enterModal = event => {
-    event.preventDefault();
-    this.props.showModal();
+    console.log(event);
+    this.props.showModal(event);
   };
 
   render() {
     return (
       <div className="Home_Page">
         <img src={phone} id="phone" alt="iphone" />
-        <button onClick={this.enterModal} id="login">
+        <button onClick={() => this.enterModal("login")} id="login">
           Login Now <img src={symbol} alt="symbol" />
         </button>
 
-        <Modal show={this.props.show}>
+        <Modal show={this.props.activeModal === "login"}>
           <Login closeModal={this.props.showModal} />
         </Modal>
 
-        <a href="#" className="link" onClick={this.enterModal}>
+        <a href="#" className="link" onClick={() => this.enterModal("signup")}>
           Sign Up
         </a>
 
-        {/* <Modal show={this.props.show}>
+        <Modal show={this.props.activeModal === "signup"}>
           <SignUp closeModal={this.props.showModal} />
-        </Modal> */}
+        </Modal>
 
         <img src={more} id="more_img" alt="click for more" />
         <p>
