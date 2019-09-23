@@ -47,3 +47,25 @@
   font-family: Roboto-Regular;
   color: rgb(89, 95, 111);
 }
+
+.Home_Page h2 {
+  position: relative;
+  top: -532pt;
+  left: 248pt;
+  font-size: 48pt;
+  color: rgb(26, 71, 176);
+  font-family: "Roboto-Bold";
+  letter-spacing: -1pt;
+  font-weight: bold;
+}
+
+.Home_Page h3 {
+  position: relative;
+  top: -552pt;
+  left: 248pt;
+  font-size: 48pt;
+  color: rgb(26, 71, 176);
+  font-family: "Roboto-Light";
+  letter-spacing: -1pt;
+  font-weight: lighter;
+}

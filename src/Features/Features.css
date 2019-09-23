@@ -18,6 +18,7 @@
 
 .Features #numbers {
   margin-left: 150pt;
+  box-shadow: 20pt 20pt 60pt rgba(0, 0, 0, 0.4);
 }
 
 .Features #numbers p {
@@ -46,6 +47,5 @@
 }
 
 .Features #text {
-  margin-left: 250pt;
-  position: inherit;
+  margin-left: 150pt;
 }

@@ -18,12 +18,21 @@ class App extends Component {
     });
   };
 
+  closeModal = () => {
+    this.setState({
+      ...this.state,
+      show: !this.state.show
+    });
+    this.props.history.push(`/home`);
+  };
+
   render() {
     return (
       <div className="App">
         <Header path={this.props.match.path} />
         <HomePage
           showModal={this.showModal}
+          closeModal={this.closeModal}
           activeModal={this.state.activeModal}
           show={this.state.show}
         />

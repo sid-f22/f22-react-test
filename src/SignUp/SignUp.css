@@ -50,3 +50,24 @@ input {
   font-family: "Roboto-Medium";
   font-size: 9.6pt;
 }
+
+.Sign_up h2 {
+  position: relative;
+  top: -532pt;
+  left: 248pt;
+  font-size: 48pt;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto-Bold";
+  letter-spacing: -1pt;
+}
+
+.Sign_up h3 {
+  position: relative;
+  top: -572pt;
+  left: 248pt;
+  font-size: 48pt;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto-Light";
+  letter-spacing: -1pt;
+  font-weight: lighter;
+}

@@ -22,7 +22,7 @@ class HomePage extends Component {
         </button>
 
         <Modal show={this.props.activeModal === "login"}>
-          <Login closeModal={this.props.showModal} />
+          <Login closeModal={this.props.closeModal} />
         </Modal>
 
         <a href="#" className="link" onClick={() => this.enterModal("signup")}>
@@ -30,7 +30,7 @@ class HomePage extends Component {
         </a>
 
         <Modal show={this.props.activeModal === "signup"}>
-          <SignUp closeModal={this.props.showModal} />
+          <SignUp closeModal={this.props.closeModal} />
         </Modal>
 
         <img src={more} id="more_img" alt="click for more" />
@@ -38,6 +38,8 @@ class HomePage extends Component {
           Scroll Down to <br />
           Learn More
         </p>
+        <h2>Cool New</h2>
+        <h3>Fashion Website.</h3>
       </div>
     );
   }
