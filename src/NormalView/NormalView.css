@@ -1,12 +1,12 @@
-.Normal_View img {
-  position: relative;
-  float: left;
+div.Normal_View img {
+  /* position: relative;
+  float: left; */
   height: 263pt;
   width: 263pt;
   box-shadow: 20pt 20pt 60pt rgba(0, 0, 0, 0.3);
 }
 
-#image1 {
+/* #image1 {
   top: 100pt;
   left: 148pt;
 }
@@ -24,21 +24,22 @@
 #image4 {
   top: 463pt;
   left: 236pt;
-}
+} */
 
-.Normal_View {
+div.Normal_View {
   font-family: "Roboto-Regular";
   color: rgb(89, 95, 111);
   letter-spacing: 0pt;
   height: 826pt;
+  display: inline-block;
 }
 
-.Normal_View h5 {
+div.Normal_View h5 {
   font-size: 12pt;
   width: 41pt;
 }
 
-#text_image1 {
+/* #text_image1 {
   position: relative;
   top: -104pt;
   left: 440pt;
@@ -60,4 +61,4 @@
   position: relative;
   top: -166pt;
   left: 733pt;
-}
+} */
