@@ -10,9 +10,7 @@
 .sign_form {
   height: 318pt;
   width: 274.8pt;
-  position: relative;
   text-align: center;
-  top: 72pt;
   background-color: rgb(255, 255, 255);
   border: 0.6pt solid rgb(255, 255, 255);
   border-radius: 5pt;
@@ -52,9 +50,6 @@ input {
 }
 
 .Sign_up h2 {
-  position: relative;
-  top: -532pt;
-  left: 248pt;
   font-size: 48pt;
   color: rgb(255, 255, 255);
   font-family: "Roboto-Bold";
@@ -62,9 +57,6 @@ input {
 }
 
 .Sign_up h3 {
-  position: relative;
-  top: -572pt;
-  left: 248pt;
   font-size: 48pt;
   color: rgb(255, 255, 255);
   font-family: "Roboto-Light";

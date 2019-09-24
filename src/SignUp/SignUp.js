@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./SignUp.css";
 
 class SignUp extends Component {
@@ -15,19 +14,28 @@ class SignUp extends Component {
         <Container>
           <Row>
             <Col>
-              <h2>
-                <Row>We are in Beta.</Row>
-              </h2>
+              <Row>
+                <h2>We are in Beta.</h2>
+              </Row>
               <Row>
                 <h3>Sign up Early Acces.</h3>
               </Row>
             </Col>
             <Col>
               <form className="sign_form" onSubmit={this.exitModal}>
-                <input type="text" id="name" placeholder="Name" />
-                <input type="email" placeholder="Email Address" />
-                <input type="number" placeholder="Phone Number" />
-                <input type="password" placeholder="Password" />
+                <Row className="align-items-center">
+                  <input type="text" id="name" placeholder="Name" />
+                </Row>
+                <Row className="align-items-center">
+                  <input type="email" placeholder="Email Address" />
+                </Row>
+                <Row className="align-items-center">
+                  <input type="number" placeholder="Phone Number" />
+                </Row>
+                <Row className="align-items-center">
+                  <input type="password" placeholder="Password" />
+                </Row>
+
                 <button type="submit" className="sign">
                   Sign Up Now
                 </button>

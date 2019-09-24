@@ -1,6 +1,6 @@
 .Features {
   height: 827pt;
-  width: 1440pt;
+  /* width: 1440pt; */
   background-color: rgb(18, 48, 117);
 }
 
@@ -23,7 +23,7 @@
 
 .Features #numbers p {
   font-size: 24pt;
-  position: relative;
+  /* position: relative; */
   float: left;
   font-family: "Roboto Bold";
   padding: 20pt 26pt 19pt 27pt;
@@ -34,10 +34,10 @@
 }
 
 .Features #text p {
-  position: relative;
+  /* position: relative;
   left: -90pt;
   top: 120pt;
-  float: left;
+  float: left; */
   height: 42pt;
   width: 263pt;
   margin-right: 29pt;

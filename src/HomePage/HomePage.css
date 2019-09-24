@@ -1,13 +1,13 @@
 .Home_Page {
   height: 720pt;
-  width: 1440pt;
+  /* width: 1440pt; */
 }
 
 #phone {
   height: 780pt;
   /* width: 385pt; */
   margin-right: 384pt;
-  float: right;
+  /* float: right; */
 }
 
 #more_img {
@@ -39,19 +39,19 @@
 }
 
 .Home_Page p {
-  position: relative;
+  /* position: relative;
   top: 180pt;
   right: 290pt;
-  float: right;
+  float: right; */
   font-size: 12pt;
   font-family: Roboto-Regular;
   color: rgb(89, 95, 111);
 }
 
 .Home_Page h2 {
-  position: relative;
+  /* position: relative;
   top: -532pt;
-  left: 248pt;
+  left: 248pt; */
   font-size: 48pt;
   color: rgb(26, 71, 176);
   font-family: "Roboto-Bold";
@@ -60,9 +60,9 @@
 }
 
 .Home_Page h3 {
-  position: relative;
+  /* position: relative;
   top: -552pt;
-  left: 248pt;
+  left: 248pt; */
   font-size: 48pt;
   color: rgb(26, 71, 176);
   font-family: "Roboto-Light";

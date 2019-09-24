@@ -10,10 +10,7 @@
 .login_form {
   height: 199pt;
   width: 274.8pt;
-  position: relative;
   text-align: center;
-  top: 0pt;
-  left: 439.8pt;
   background-color: rgb(255, 255, 255);
   border: 0.6pt solid rgb(255, 255, 255);
   border-radius: 5pt;
@@ -30,7 +27,4 @@ h1 {
   line-height: 37.2pt;
   letter-spacing: -0.6pt;
   color: rgb(255, 255, 255);
-  position: relative;
-  top: 159.2pt;
-  left: 149pt;
 }
