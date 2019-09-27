@@ -1,0 +1,71 @@
+.Home_Page {
+  height: 720pt;
+  /* width: 1440pt; */
+}
+
+#phone {
+  height: 780pt;
+  /* width: 385pt; */
+  margin-right: 384pt;
+  /* float: right; */
+}
+
+#more_img {
+  /* float: left; */
+  margin-left: 130pt;
+  margin-top: 150pt;
+  height: 151pt;
+  width: 151pt;
+}
+
+#login {
+  background-color: rgb(250, 43, 86);
+  color: rgb(255, 255, 255);
+  font-size: 16pt;
+  margin-left: 347px;
+  margin-top: 543px;
+  height: 50pt;
+  width: 148pt;
+  border-style: none;
+  border-radius: 5%;
+}
+
+.Home_Page .link {
+  margin-left: 30pt;
+  font-size: 16pt;
+  font-family: Roboto-Regular;
+  text-decoration: none;
+  color: rgb(89, 95, 111);
+}
+
+.Home_Page p {
+  /* position: relative;
+  top: 180pt;
+  right: 290pt;
+  float: right; */
+  font-size: 12pt;
+  font-family: Roboto-Regular;
+  color: rgb(89, 95, 111);
+}
+
+.Home_Page h2 {
+  /* position: relative;
+  top: -532pt;
+  left: 248pt; */
+  font-size: 48pt;
+  color: rgb(26, 71, 176);
+  font-family: "Roboto-Bold";
+  letter-spacing: -1pt;
+  font-weight: bold;
+}
+
+.Home_Page h3 {
+  /* position: relative;
+  top: -552pt;
+  left: 248pt; */
+  font-size: 48pt;
+  color: rgb(26, 71, 176);
+  font-family: "Roboto-Light";
+  letter-spacing: -1pt;
+  font-weight: lighter;
+}

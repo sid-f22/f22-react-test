@@ -1,0 +1,18 @@
+div.header {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.header .link {
+  margin-right: 30pt;
+  font-size: 16pt;
+  font-family: Roboto-Regular;
+  text-decoration: none;
+  color: rgb(89, 95, 111);
+}
+
+.header img {
+  /* height: 29pt; */
+  width: 86pt;
+}
